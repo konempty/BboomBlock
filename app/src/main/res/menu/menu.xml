@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/block_list_item"
+        android:title="차단리스트 보기"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/find_user"
+        android:title="유저검색"
+        app:showAsAction="never" />
+    <item android:id="@+id/find_post"
+        android:title="게시글 검색"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/setting"
+        android:title="설정"
+        app:showAsAction="never" />
+</menu>
